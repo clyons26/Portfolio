@@ -304,15 +304,12 @@ footer {
 /* CONTACT BUTTONS */
 
 .contact-buttons {
-
- .contact-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 30px;
     justify-content: center;
 }
-
 }
 
 
