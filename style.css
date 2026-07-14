@@ -188,3 +188,34 @@ footer {
 .button {
     margin-right: 15px;
 }
+/* SKILLS CARDS */
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+
+.skill-card {
+    background: #1b1321;
+    border: 1px solid #4a154b;
+    border-top: 4px solid #d4af37;
+
+    padding: 25px;
+    border-radius: 15px;
+
+    transition: .3s;
+}
+
+
+.skill-card h3 {
+    color: #f5d76e;
+    margin-bottom: 15px;
+}
+
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(212,175,55,.25);
+}
