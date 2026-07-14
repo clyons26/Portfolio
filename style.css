@@ -144,3 +144,47 @@ footer {
     background: #170f1f;
     color: #aaa;
 }
+/* HERO DESIGN */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+
+.hero-text {
+    max-width: 600px;
+}
+
+
+.buttons {
+    margin-top: 25px;
+}
+
+
+.profile-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+
+    background: #35163f;
+    border: 5px solid #d4af37;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+    font-weight: bold;
+    color: #f5d76e;
+
+    box-shadow: 0 0 30px rgba(212,175,55,.4);
+}
+
+
+.button {
+    margin-right: 15px;
+}
