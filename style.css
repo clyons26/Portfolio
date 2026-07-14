@@ -342,3 +342,88 @@ footer {
     transform: translateY(-5px);
 
 }
+/* ANIMATIONS */
+
+/* Fade in sections */
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Hero animation */
+
+.hero-text {
+    animation: slideLeft 1s ease;
+}
+
+
+@keyframes slideLeft {
+
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+
+/* Profile circle floating */
+
+.profile-circle {
+    animation: float 3s ease-in-out infinite;
+}
+
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
+/* Buttons */
+
+.button,
+.contact-button,
+.project-button {
+
+    transition: all .3s ease;
+
+}
+
+
+.button:hover,
+.contact-button:hover,
+.project-button:hover {
+
+    transform: translateY(-5px) scale(1.05);
+
+}
